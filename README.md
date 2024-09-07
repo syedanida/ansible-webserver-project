@@ -11,3 +11,13 @@ Documentation: A Word document with screenshots, setup instructions, and a demo 
 Installation of Apache web server
 Configuration of Apache to listen on a non-default port (8080)
 Deployment of a custom HTML page to the web server root
+
+
+## Result:
+VM1: 
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/421a857e-fd1b-427e-aeb0-5afa9d7cb4a6">  
+
+
+VM2:
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/c6177f2a-db3d-4e22-94b1-d9cc5a4c3eec">
+
