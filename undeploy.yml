@@ -1,0 +1,24 @@
+---
+- hosts: webservers
+  become: true
+  tasks:
+    - name: Stop Apache web server
+      systemd:
+        name: apache2
+        state: stopped
+    
+    - name: Disable Apache web server
+      systemd:
+        name: apache2
+        enabled: no
+    
+    - name: Remove Apache web server
+      apt:
+        name: apache2
+        state: absent
+
+    - name: Remove the HTML page
+      file:
+        path: /var/www/html/index.html
+        state: absent
+
