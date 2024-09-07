@@ -12,6 +12,15 @@ Installation of Apache web server
 Configuration of Apache to listen on a non-default port (8080)
 Deployment of a custom HTML page to the web server root
 
+## How to Run:
+- To deply the webserver, use: 
+> ansible-playbook -i inventory deploy.yml
+
+- To undeploy the webserver, use:
+> ansible-playbook -i inventory undeploy.yml
+
+- To run the playbook, use:
+> ansible-playbook -i inventory playbook.yml
 
 ## Result:
 VM1: 
